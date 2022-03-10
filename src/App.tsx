@@ -4,7 +4,7 @@ import InputField from "./component/InputField";
 import TodoList from "./component/TodoList";
 import { Todo } from "./model/todoModel";
 import "./component/style.scss";
-import axios from "axios";
+import axios from "axios"
 import {API_URL} from './config'
 
 const App: React.FC = () => {
